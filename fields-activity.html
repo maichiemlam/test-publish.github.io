@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lĩnh vực</title>
+    <link rel="icon" href="images/common/logo-1.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap-4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/fields-activity.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body id="index-page">
+    <div class="container-fluid">
+        <div class="header row">
+            <div class="wrapper header-inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="header-logo__img" src="images/common/logo-1.png" alt="Bac-Dao">
+                    </a>
+                </div>
+                <div class="header-nav hide-1024">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link">GIỚI THIỆU <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="header-nav__bridge"></div>
+                            <ul class="header-nav__submenu-list">
+                                <li class="header-nav__submenu-item">
+                                    <a href="history.html">Lịch sử</a>
+                                </li>
+                                <li class="header-nav__submenu-item">
+                                    <a href="management.html">Đội ngũ lãnh đạo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item header-nav__item--active">
+                            <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-mobile-menu show-1024">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #414548; padding: 15px 0;"></i>
+                    <nav class="header-mobile-menu__content">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title header-nav__link"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne"> GIỚI THIỆU </a> </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <ul class="header-nav__list">
+                                                    <li class="header-nav__item">
+                                                        <a href="history.html" class="header-nav__link">Lịch sử</a>
+                                                    </li>
+                                                    <li class="header-nav__item">
+                                                        <a href="management.html" class="header-nav__link">Đội ngũ lãnh đạo</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-nav__item header-nav__item--active">
+                                <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <i class="header-mobile-menu__btn-close fa-regular fa-sharp fa-solid fa-xmark fa-2xl"></i>
+                    </nav>
+                    <div class="overlay overlay-mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content row">
+            <section class="main-banner">
+                <img src="./images/fields-activity/banner.jpg" alt="Picture">
+                <div class="overlay main-banner-overlay">
+                    <div class="wrapper">
+                        <h2>LĨNH VỰC HOẠT ĐỘNG</h2>
+                        <div class="main-banner-overlay__desc">
+                            <a href="index.html">Trang chủ</a><div class="main-banner-overlay__desc-arrow"></div><span>Lĩnh vực</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <div class="main-content">
+                <div class="wrapper fields-activity-inner">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Dự án đầu tư</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Khảo sát thiết kế</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Thi công lắp đặt</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content col-sm-12">
+                            <div class="row tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-content">
+                                        <strong>BẮC ĐẢO</strong> là một trong những doanh nghiệp nằm trong Top 1 nhà thầu uy tín nhất Việt Nam. BẮC ĐẢO đã ghi dấu ấn vai trò Tổng thầu của mình bằng những công trình quy mô lớn, yêu cầu kỹ mỹ thuật cao như: Khách sạn 5 sao Le Meridien, Khu phức hợp Saigon Centre, Nhà ga mở rộng sân bay quốc tế Tân Sơn Nhất, Tổ hợp du lịch và giải trí Cocobay Đà Nẵng,...
+                                        <br><br>
+                                        Ngoài đội ngũ kỹ sư đầy tâm huyết, dày dặn kinh nghiệm của BẮC ĐẢO, mạng lưới công ty thành viên luôn là những trợ thủ đắc lực cho BẮC ĐẢO trong vai trò tổng thầu như: Trang trí mộc BẮC ĐẢO (MBH), Xây dựng nhôm kính Anh Việt (AHA), Sơn BẮC ĐẢO (HBP), cơ điện Jesco BẮC ĐẢO (JHE), Tư vấn Thiết kế BẮC ĐẢO (HBA), xây dựng Hạ tầng BẮC ĐẢO (HBI), Máy móc thiết bị (Matec),...
+                                        <br><br>
+                                        Ở những dự án do BẮC ĐẢO làm Tổng thầu, khách hàng luôn nhận được sự hài lòng nhất, bởi những ưu việt:<br>
+                                        <strong>1. Quản lý</strong><br>
+                                        Tập trung mọi đầu mối quản lý tại BẮC ĐẢO, khách hàng sẽ thuận tiện hơn trong quản lý thông tin, nhân lực.<br>
+                                        <strong>2. Chất lượng</strong><br>
+                                        Dự án luôn được đảm bảo chất lượng bởi một thương hiệu, uy tín và cam kết của BẮC ĐẢO.<br>
+                                        <strong>3. Tiến độ</strong><br>
+                                        Dự án luôn được đảm bảo về tiến độ bởi năng lực làm việc và cam kết của BẮC ĐẢO.<br>
+                                        <strong>4. Chi phí</strong><br>
+                                        Hiệu quả trong quản lý ngân sách dự án, tăng lợi nhuận.
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-img">
+                                        <img src="./images/fields-activity/du-lich-mien-song-nuoc-41121.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-content">
+                                        Mô hình tổng thầu Thiết kế và Thi công (Design & Build) là xu hướng của ngành xây dựng Việt Nam hiện nay. Tuy nhiên,
+                                        không phải nhà thầu nào cũng đủ điều kiện để hướng đến mô hình tổng thầu thiết kế và thi công.<br><br>
+                                    
+                                        Với lợi thế đã triển khai và áp dụng Hệ thống Hoạch định nguồn lực doanh nghiệp ERP và B.I.M từ nhiều năm trước. Năm
+                                        2014, BẮC ĐẢO đã tập trung xây dựng đội ngũ nhân lực đáp ứng được vai trò, nhiệm vụ của tổng thầu Design & Build.
+                                        Thành công trong vai trò tổng thầu Design & Build của BẮC ĐẢO đã được thể hiện qua các dự án như: dự án The Ascent,
+                                        Imperia Sky Garden, Gamuda CT2 Apartments,…<br><br>
+                                    
+                                        Với những dự án do BẮC ĐẢO làm tổng thầu Design & Build, khách hàng luôn nhận được sự ưu việt, tiết giảm tối thiểu
+                                        10% chi phí và 30% thời gian thi công.<br>
+                                    
+                                        <strong>1.Quản lý</strong><br>
+                                        Design & Build có được sự tập trung trách nhiệm trong việc thực hiện hai hoạt động và có mối liên hệ chặt chẽ của dự
+                                        án là thiết kế và thi công. Do chỉ có một đơn vị thực hiện cả hai hoạt động này, nên các nội dung quản lý dự án tập
+                                        trung về một mối. Đặc biệt, nhờ tính liên tục từ quá trình thiết kế đến thi công nên Design & Build giúp giảm khối
+                                        lượng công việc hành chính liên quan đến việc điều phối giữa đơn vị thiết kế và thi công. Design & Build cũng giúp
+                                        quản lý rất nhiều rủi ro, kiểm soát mọi khâu và làm giảm đáng kể những sai sót trong việc thực thi.<br>
+                                    
+                                        <strong>2. Chất lượng</strong><br>
+                                        Công việc thiết kế và xây dựng cùng nằm trong một tổ chức, một đầu mối nên sự phối hợp sẽ tốt hơn. Chất lượng của dự
+                                        án luôn được kiểm soát tốt nhất bởi đội ngũ thiết kế, kỹ sư dày dặn kinh nghiệm và nhiệt huyết của BẮC ĐẢO.<br>
+                                    
+                                        <strong>3. Tiến độ</strong><br>
+                                        Công việc Design & Build giúp rút ngắn thời gian vì thiết kế và thi công có thể gối đầu nhau, bớt được một số thời
+                                        gian cho việc lựa chọn nhà thầu, do đó tiến độ thời gian của toàn dự án được rút ngắn lại. Đồng thời luôn được đảm
+                                        bảo bởi năng lực làm việc và cam kết của BẮC ĐẢO.<br>
+                                    
+                                        <strong>4. Chi phí</strong><br>
+                                        Hiệu quả trong quản lý ngân sách dự án, tiết kiệm chi phí và giúp tăng lợi nhuận.
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-img">
+                                        <img src="./images/fields-activity/hinh-anh-do-thi-hoa-la-gi-qua-trinh-&-nhung-anh-huong-cua-do-thi-hoa-so-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row tab-pane" id="tabs-3" role="tabpanel">
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-content">
+                                        <strong>BẮC ĐẢO</strong> là một trong những doanh nghiệp nằm trong Top 1 nhà thầu uy tín nhất Việt Nam. BẮC ĐẢO đã ghi dấu ấn vai trò Tổng thầu của mình bằng những công trình quy mô lớn, yêu cầu kỹ mỹ thuật cao như: Khách sạn 5 sao Le Meridien, Khu phức hợp Saigon Centre, Nhà ga mở rộng sân bay quốc tế Tân Sơn Nhất, Tổ hợp du lịch và giải trí Cocobay Đà Nẵng,...
+                                        <br><br>
+                                        Ngoài đội ngũ kỹ sư đầy tâm huyết, dày dặn kinh nghiệm của BẮC ĐẢO, mạng lưới công ty thành viên luôn là những trợ thủ đắc lực cho BẮC ĐẢO trong vai trò tổng thầu như: Trang trí mộc BẮC ĐẢO (MBH), Xây dựng nhôm kính Anh Việt (AHA), Sơn BẮC ĐẢO (HBP), cơ điện Jesco BẮC ĐẢO (JHE), Tư vấn Thiết kế BẮC ĐẢO (HBA), xây dựng Hạ tầng BẮC ĐẢO (HBI), Máy móc thiết bị (Matec),...
+                                        <br><br>
+                                        Ở những dự án do BẮC ĐẢO làm Tổng thầu, khách hàng luôn nhận được sự hài lòng nhất, bởi những ưu việt:<br>
+                                        <strong>1. Quản lý</strong><br>
+                                        Tập trung mọi đầu mối quản lý tại BẮC ĐẢO, khách hàng sẽ thuận tiện hơn trong quản lý thông tin, nhân lực.<br>
+                                        <strong>2. Chất lượng</strong><br>
+                                        Dự án luôn được đảm bảo chất lượng bởi một thương hiệu, uy tín và cam kết của BẮC ĐẢO.<br>
+                                        <strong>3. Tiến độ</strong><br>
+                                        Dự án luôn được đảm bảo về tiến độ bởi năng lực làm việc và cam kết của BẮC ĐẢO.<br>
+                                        <strong>4. Chi phí</strong><br>
+                                        Hiệu quả trong quản lý ngân sách dự án, tăng lợi nhuận.
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="fields-activity-pane-img">
+                                        <img src="./images/fields-activity/kiem20soat20du20an.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields-activity-partner col-sm-12">
+                            <div class="fields-activity-partner__title">
+                                <div class="fields-activity-partner__title-text">
+                                    Các đối tác
+                                </div>
+                                <div class="fields-activity-partner__title-desc">
+                                    Các hoạt động này được thực hiện thông qua các công ty đối tác và công ty con của họ.
+                                </div>
+                            </div>
+                            <div class="fields-activity-partner__content">
+                                <ul class="fields-activity-partner__list">
+                                    <li class="fields-activity-partner__item">
+                                        <img src="./images/fields-activity/central.png" alt="">
+                                    </li>
+                                    <li class="fields-activity-partner__item">
+                                        <img src="./images/fields-activity/central.png" alt="">
+                                    </li>
+                                    <li class="fields-activity-partner__item">
+                                        <img src="./images/fields-activity/central.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer row">
+            <div class="wrapper footer-inner">
+                <div class="footer-inner-content row">
+                    <div class="col-sm-3">
+                        <div class="footer-content-about">
+                            <img src="./images/common/logo-1.png" alt="" class="footer-content-about__logo">
+                            <p>Công Ty TNHH MTV Bắc Đảo được thành lập năm 2020. Là đơn vị hàng đầu trong ngành Nhiệt - Điện lạnh Việt Nam</p>
+                            <div class="footer-content-about__connect">
+                                <a href="">
+                                    <img src="./images/common/facebook.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/common/envelope.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-links">
+                            <p class="footer-title footer-content-links__title">
+                                LIÊN KẾT
+                            </p>
+                            <ul class="footer-content-links__list">
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Lĩnh vực công ty
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Các dự án
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Thông tin tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Đội ngũ lãnh đạo
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Liên hệ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-office">
+                            <p class="footer-title footer-content-office__title">
+                                TRỤ SỞ TP. HỒ CHÍ MINH
+                            </p>
+                            <p class="footer-content-office-address">
+                                Địa chỉ: 839/28/12 Lê Văn Lương, Xã Phước Kiển, Huyện Nhà Bè, TP Hồ Chí Minh
+                            </p>
+                            <p class="footer-content-office-address">
+                                Điện thoại: +84(98) 107 4353
+                            </p>
+                            <p class="footer-content-office-address">
+                                FAX: +84(24) 3976 0988
+                            </p>
+                            <p class="footer-content-office-address">
+                                Email: info@bacdao.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-noti">
+                            <p class="footer-title footer-content-noti__title">
+                               THÔNG TIN
+                            </p>
+                            <p class="footer-content-noti__text">
+                                Hãy đăng ký nhận tất cả thông tin về công ty chúng tôi.
+                            </p>
+                            <form class="footer-content-noti__form" action="">
+                                <input type="email" id="email" name="email" placeholder="Nhập email của bạn">
+                                <button type="submit">Gửi đi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-inner-policy">
+                <div class="wrapper">
+                    <p>Copyright © 2020 BACDAO | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-to-top">
+            <div class="scroll-to-top__arrow"></div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- Local JS -->
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>

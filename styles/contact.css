@@ -1,0 +1,14 @@
+.contact-inner__info-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.contact-inner__info-content {
+    line-height: 24px;
+}
+
+.form-recruitment .modal-footer {
+    border-top: unset;
+}

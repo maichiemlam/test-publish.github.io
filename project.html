@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dự án</title>
+    <link rel="icon" href="images/common/logo-1.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap-4.4.1/css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body id="index-page">
+    <div class="container-fluid">
+        <div class="header row">
+            <div class="wrapper header-inner">
+                <div class="header-logo">
+                    <a href="#">
+                        <img class="header-logo__img" src="images/common/logo-1.png" alt="Bac-Dao">
+                    </a>
+                </div>
+                <div class="header-nav hide-1024">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link">GIỚI THIỆU <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="header-nav__bridge"></div>
+                            <ul class="header-nav__submenu-list">
+                                <li class="header-nav__submenu-item">
+                                    <a href="history.html">Lịch sử</a>
+                                </li>
+                                <li class="header-nav__submenu-item">
+                                    <a href="management.html">Đội ngũ lãnh đạo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                        </li>
+                        <li class="header-nav__item header-nav__item--active">
+                            <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-mobile-menu show-1024">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #414548; padding: 15px 0;"></i>
+                    <nav class="header-mobile-menu__content">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title header-nav__link"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne"> GIỚI THIỆU </a> </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <ul class="header-nav__list">
+                                                    <li class="header-nav__item">
+                                                        <a href="history.html" class="header-nav__link">Lịch sử</a>
+                                                    </li>
+                                                    <li class="header-nav__item">
+                                                        <a href="management.html" class="header-nav__link">Đội ngũ lãnh đạo</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item--active">
+                                <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <i class="header-mobile-menu__btn-close fa-regular fa-sharp fa-solid fa-xmark fa-2xl"></i>
+                    </nav>
+                    <div class="overlay overlay-mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content row">
+            <section class="main-banner">
+                <img src="./images/project/banner.jpg" alt="Picture">
+                <div class="overlay main-banner-overlay">
+                    <div class="wrapper">
+                        <h2>DỰ ÁN NỔI BẬT</h2>
+                        <div class="main-banner-overlay__desc">
+                            <a href="index.html">Trang chủ</a><div class="main-banner-overlay__desc-arrow"></div><span>Dự án</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main-content">
+                <div class="wrapper project-inner margin-bottom-footer content-box">
+                    <div class="portfolio-menu mt-2 mb-4">
+                        <ul>
+                            <li class="btn btn-outline-dark active" data-filter="*">Tất cả</li>
+                            <li class="btn btn-outline-dark" data-filter=".in-progress">Đang triển khai</li>
+                            <li class="btn btn-outline-dark" data-filter=".done-progress">Đã thực hiện</li>
+                            <li class="btn btn-outline-dark text" data-filter=".prepare-to-invest">Chuẩn bị đầu tư</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-item row">
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/project/94143332a1b36ded34a2.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/Sunbay-park-1.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/vinhomes-smart-city-tay-mo.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/Types-of-building-materials.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/goldmark-city.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/sunbay-park-hotel-resort.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/vinhomes-smart-city-tay-mo.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/project/94143332a1b36ded34a2.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/Sunbay-park-1.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/vinhomes-smart-city-tay-mo.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/Types-of-building-materials.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item in-progress col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/goldmark-city.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/sunbay-park-hotel-resort.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item prepare-to-invest col-lg-3 col-md-4 col-6 col-sm">
+                            <a href="project-detail.html" class="fancylight popup-btn">
+                                <img class="img-fluid" src="./images/index/vinhomes-smart-city-tay-mo.jpg" alt="">
+                                <div class="project-inner-desc">
+                                    <p>Khu đô thị sinh thái, du lịch, nghỉ dưỡng và sân golf Phú Thọ</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer row">
+            <div class="wrapper footer-inner">
+                <div class="footer-inner-content row">
+                    <div class="col-sm-3">
+                        <div class="footer-content-about">
+                            <img src="./images/common/logo-1.png" alt="" class="footer-content-about__logo">
+                            <p>Công Ty TNHH MTV Bắc Đảo được thành lập năm 2020. Là đơn vị hàng đầu trong ngành Nhiệt - Điện lạnh Việt Nam</p>
+                            <div class="footer-content-about__connect">
+                                <a href="">
+                                    <img src="./images/common/facebook.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/common/envelope.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-links">
+                            <p class="footer-title footer-content-links__title">
+                                LIÊN KẾT
+                            </p>
+                            <ul class="footer-content-links__list">
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Lĩnh vực công ty
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Các dự án
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Thông tin tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Đội ngũ lãnh đạo
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Liên hệ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-office">
+                            <p class="footer-title footer-content-office__title">
+                                TRỤ SỞ TP. HỒ CHÍ MINH
+                            </p>
+                            <p class="footer-content-office-address">
+                                Địa chỉ: 839/28/12 Lê Văn Lương, Xã Phước Kiển, Huyện Nhà Bè, TP Hồ Chí Minh
+                            </p>
+                            <p class="footer-content-office-address">
+                                Điện thoại: +84(98) 107 4353
+                            </p>
+                            <p class="footer-content-office-address">
+                                FAX: +84(24) 3976 0988
+                            </p>
+                            <p class="footer-content-office-address">
+                                Email: info@bacdao.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-noti">
+                            <p class="footer-title footer-content-noti__title">
+                               THÔNG TIN
+                            </p>
+                            <p class="footer-content-noti__text">
+                                Hãy đăng ký nhận tất cả thông tin về công ty chúng tôi.
+                            </p>
+                            <form class="footer-content-noti__form" action="">
+                                <input type="email" id="email" name="email" placeholder="Nhập email của bạn">
+                                <button type="submit">Gửi đi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-inner-policy">
+                <div class="wrapper">
+                    <p>Copyright © 2020 BACDAO | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-to-top">
+            <div class="scroll-to-top__arrow"></div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./plugins/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <!-- Local JS -->
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>

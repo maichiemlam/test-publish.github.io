@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trang chủ</title>
+    <link rel="icon" href="images/common/logo-1.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap-4.4.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body id="index-page">
+    <div class="container-fluid">
+        <div class="header row">
+            <div class="wrapper header-inner">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img class="header-logo__img" src="images/common/logo-1.png" alt="Bac-Dao">
+                    </a>
+                </div>
+                <div class="header-nav hide-1024">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item header-nav__item--active">
+                            <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link">GIỚI THIỆU <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="header-nav__bridge"></div>
+                            <ul class="header-nav__submenu-list">
+                                <li class="header-nav__submenu-item">
+                                    <a href="history.html">Lịch sử</a>
+                                </li>
+                                <li class="header-nav__submenu-item">
+                                    <a href="management.html">Đội ngũ lãnh đạo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-mobile-menu show-1024">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #414548; padding: 15px 0;"></i>
+                    <nav class="header-mobile-menu__content">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item header-nav__item--active">
+                                <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title header-nav__link"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne"> GIỚI THIỆU </a> </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <ul class="header-nav__list">
+                                                    <li class="header-nav__item">
+                                                        <a href="history.html" class="header-nav__link">Lịch sử</a>
+                                                    </li>
+                                                    <li class="header-nav__item">
+                                                        <a href="management.html" class="header-nav__link">Đội ngũ lãnh đạo</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <i class="header-mobile-menu__btn-close fa-regular fa-sharp fa-solid fa-xmark fa-2xl"></i>
+                    </nav>
+                    <div class="overlay overlay-mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content row">
+            <section class="main-banner">
+                <img src="./images/index/sunbay-park-hotel-resort.jpg" alt="Picture">
+                <div class="overlay main-banner-overlay">
+                    <div class="wrapper">
+                        <h2>BẮC ĐẢO</h2>
+                        <p>Top 10 Công ty uy tín ngành Nhiệt - Điện lạnh năm 2021.</p>
+                    </div>
+                </div>
+            </section>
+            <div class="main-content">
+                <div class="wrapper main-fields-activity">
+                    <div class="main-fields-activity__title row">
+                        <div class="col-sm-5 main-fields-activity__title-text">Lĩnh vực hoạt động</div>
+                        <div class="col-sm-7 main-fields-activity__title-desc">
+                            Công trình của công ty thực hiện trên khắp cả nước luôn là những công trình nổi bật, phức tạp, đòi hỏi công nghệ xây dựng cập nhật nhất hiện nay.
+                        </div>
+                    </div>
+                    <div class="main-fields-activity__content row">
+                        <div class="col-sm-4">
+                            <div class="main-fields-activity__item">
+                                <a href="fields-activity.html" class="main-fields-activity__link">
+                                    <img src="./images/index/building.png" alt="">
+                                    <div class="main-fields-activity__link-title">
+                                        <p>Dự án đầu tư</p>
+                                        <span>Thêm mô tả</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="main-fields-activity__item">
+                                <a href="fields-activity.html" class="main-fields-activity__link">
+                                    <img src="./images/index/plan.png" alt="">
+                                    <div class="main-fields-activity__link-title">
+                                        <p>Khảo sát thiết kế</p>
+                                        <span>Thêm mô tả</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="main-fields-activity__item">
+                                <a href="fields-activity.html" class="main-fields-activity__link">
+                                    <img src="./images/index/wrench.png" alt="">
+                                    <div class="main-fields-activity__link-title">
+                                        <p>Thi công lắp đặt</p>
+                                        <span>Thêm mô tả</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper main-outstanding-works">
+                    <div class="main-outstanding-works__title">
+                        <div class="main-outstanding-works__title-text">
+                            Công trình nổi bật
+                        </div>
+                        <div class="main-outstanding-works__title-desc">
+                            Công trình của công ty thực hiện trên khắp cả nước luôn là những công trình nổi bật, phức tạp, đòi hỏi công nghệ xây dựng cập nhật nhất hiện nay.
+                        </div>
+                    </div>
+                    <div class="main-outstanding-works__content row">
+                        <div class="col-sm-6 add-padding-bottom">
+                            <a href="#" class="main-outstanding-works__work">
+                                <figure>
+                                    <img src="./images/index/_636519470386678505_HasThumb.jpg" alt="Thumb" width="400" height="300" />
+                                    <figcaption><div>Xem chi tiết</div></figcation>
+                                </figure>
+                                <div class="main-outstanding-works__work-project">
+                                    Dự án Khu nhà ở gia đình quân đội tại khu ĐTM Nam hồ Linh Đàm
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-6 remove-padding-left add-padding-bottom">
+                                    <a href="#" class="main-outstanding-works__work main-outstanding-works__work--small">
+                                        <figure>
+                                            <img src="./images/index/Sunbay-park-1.jpg" alt="Thumb" width="400" height="300" />
+                                            <figcaption><div>Xem chi tiết</div></figcation>
+                                        </figure>
+                                        <div class="main-outstanding-works__work-project">
+                                            Dự án Sunbay Park
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6 remove-padding-left">
+                                    <a href="#" class="main-outstanding-works__work main-outstanding-works__work--small">
+                                        <figure>
+                                            <img src="./images/index/vinhomes-smart-city-tay-mo.jpg" alt="Thumb" width="400" height="300" />
+                                            <figcaption><div>Xem chi tiết</div></figcation>
+                                        </figure>
+                                        <div class="main-outstanding-works__work-project">
+                                            Dự án Vinhomes Smart City
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 remove-padding-left add-padding-top">
+                                    <a href="#" class="main-outstanding-works__work main-outstanding-works__work--small">
+                                        <figure>
+                                            <img src="./images/index/goldmark-city.jpg" alt="Thumb" width="400" height="300" />
+                                            <figcaption><div>Xem chi tiết</div></figcation>
+                                        </figure>
+                                        <div class="main-outstanding-works__work-project">
+                                            Dự án Gold Mark City
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <a href="project.html" class="main-outstanding-works__link">
+                                <button class="main-outstanding-works__btn"><span>Xem thêm</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-cooperate">
+                    <div class="overlay main-cooperate-overlay"></div>
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="main-cooperate__content">
+                                    <h2 class="main-cooperate__content-title">
+                                        Hợp tác cùng BẮC ĐẢO
+                                    </h2>
+                                    <p class="main-cooperate__content-text">
+                                        Chúng tôi liên kết với rất nhiều các đối tác trong cả nước, tận dụng hiệu quả mạng lưới các nhà cung ứng, thầu phụ chuyên môn cao để đạt được mục tiêu công việc một cách hiệu quả nhất.
+                                        <br><br>
+                                        BẮC ĐẢO mong muốn xây dựng những mối quan hệ hợp tác chiến lược để cùng nhau tiến xa hơn. Hãy nhanh chóng tham gia cùng với chúng tôi !
+                                    </p>
+                                    <a href="contact.html" class="main-cooperate__content-link">
+                                        <div class="main-cooperate__content-btn">Liên hệ ngay <i class="fa-solid fa-arrow-right"></i></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="main-cooperate__img">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper main-news">
+                    <div class="main-news-title">
+                        <h1>Tin tức</h1>
+                        <p>Tổng hợp những tin tức mới nhất</p>
+                    </div>
+                    <div class="main-news-content row">
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="main-news__link">
+                                <div class="main-news__link-content">
+                                    <img class="main-news__link-img" src="./images/index/ngay-mung-8-thang-3-la-ngay-gi-1.jpg" alt="">
+                                    <div class="overlay main-news__link-overlay">
+                                        <p class="main-news__link-overlay-title">Xem chi tiết</p>
+                                    </div>
+                                </div>
+                                <p class="main-news__link-desc">Không khí đón 8/3 sôi nổi tại công ty BẮC ĐẢO</p>
+                                <div class="main-news__link-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Tháng 4, 2023</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer row">
+            <div class="wrapper footer-inner">
+                <div class="footer-inner-content row">
+                    <div class="col-sm-3">
+                        <div class="footer-content-about">
+                            <img src="./images/common/logo-1.png" alt="" class="footer-content-about__logo">
+                            <p>Công Ty TNHH MTV Bắc Đảo được thành lập năm 2020. Là đơn vị hàng đầu trong ngành Nhiệt - Điện lạnh Việt Nam</p>
+                            <div class="footer-content-about__connect">
+                                <a href="">
+                                    <img src="./images/common/facebook.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/common/envelope.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-links">
+                            <p class="footer-title footer-content-links__title">
+                                LIÊN KẾT
+                            </p>
+                            <ul class="footer-content-links__list">
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Lĩnh vực công ty
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Các dự án
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Thông tin tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Đội ngũ lãnh đạo
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Liên hệ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-office">
+                            <p class="footer-title footer-content-office__title">
+                                TRỤ SỞ TP. HỒ CHÍ MINH
+                            </p>
+                            <p class="footer-content-office-address">
+                                Địa chỉ: 839/28/12 Lê Văn Lương, Xã Phước Kiển, Huyện Nhà Bè, TP Hồ Chí Minh
+                            </p>
+                            <p class="footer-content-office-address">
+                                Điện thoại: +84(98) 107 4353
+                            </p>
+                            <p class="footer-content-office-address">
+                                FAX: +84(24) 3976 0988
+                            </p>
+                            <p class="footer-content-office-address">
+                                Email: info@bacdao.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-noti">
+                            <p class="footer-title footer-content-noti__title">
+                               THÔNG TIN
+                            </p>
+                            <p class="footer-content-noti__text">
+                                Hãy đăng ký nhận tất cả thông tin về công ty chúng tôi.
+                            </p>
+                            <form class="footer-content-noti__form" action="">
+                                <input type="email" id="email" name="email" placeholder="Nhập email của bạn">
+                                <button type="submit">Gửi đi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-inner-policy">
+                <div class="wrapper">
+                    <p>Copyright © 2020 BACDAO | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-to-top">
+            <div class="scroll-to-top__arrow"></div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- Local JS -->
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>

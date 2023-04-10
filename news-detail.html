@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tin tức - sự kiện</title>
+    <link rel="icon" href="images/common/logo-1.png" type="image/gif" sizes="16x16">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/fontawesome-free-6.2.1-web/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap-4.4.1/css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./plugins/owl-carousel/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+
+<body id="index-page">
+    <div class="container-fluid">
+        <div class="header row">
+            <div class="wrapper header-inner">
+                <div class="header-logo">
+                    <a href="#">
+                        <img class="header-logo__img" src="images/common/logo-1.png" alt="Bac-Dao">
+                    </a>
+                </div>
+                <div class="header-nav hide-1024">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link">GIỚI THIỆU <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="header-nav__bridge"></div>
+                            <ul class="header-nav__submenu-list">
+                                <li class="header-nav__submenu-item">
+                                    <a href="history.html">Lịch sử</a>
+                                </li>
+                                <li class="header-nav__submenu-item">
+                                    <a href="management.html">Đội ngũ lãnh đạo</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                        </li>
+                        <li class="header-nav__item header-nav__item--active">
+                            <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-mobile-menu show-1024">
+                    <i class="fa-solid fa-bars fa-2xl" style="color: #414548; padding: 15px 0;"></i>
+                    <nav class="header-mobile-menu__content">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="index.html">TRANG CHỦ</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title header-nav__link"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne"> GIỚI THIỆU </a> </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <ul class="header-nav__list">
+                                                    <li class="header-nav__item">
+                                                        <a href="history.html" class="header-nav__link">Lịch sử</a>
+                                                    </li>
+                                                    <li class="header-nav__item">
+                                                        <a href="management.html" class="header-nav__link">Đội ngũ lãnh đạo</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="fields-activity.html">LĨNH VỰC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="project.html">DỰ ÁN</a>
+                            </li>
+                            <li class="header-nav__item header-nav__item--active">
+                                <a class="header-nav__link" href="news.html">TIN TỨC</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="recruitment.html">TUYỂN DỤNG</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a class="header-nav__link" href="contact.html" >LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                        <i class="header-mobile-menu__btn-close fa-regular fa-sharp fa-solid fa-xmark fa-2xl"></i>
+                    </nav>
+                    <div class="overlay overlay-mobile-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content row">
+            <section class="main-banner">
+                <img src="./images/news/360_F_428712120_pLwhz6srpWcmWL3tcqy97PMwlJK53jGi.jpg" alt="Picture">
+                <div class="overlay main-banner-overlay">
+                    <div class="wrapper">
+                        <h2>TIN TỨC - SỰ KIỆN</h2>
+                        <div class="main-banner-overlay__desc">
+                            <a href="index.html">Trang chủ</a><div class="main-banner-overlay__desc-arrow"></div><a href="news.html">Tin tức - sự kiện</a><div class="main-banner-overlay__desc-arrow"></div><span>Chi tiết</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main-content">
+                <div class="wrapper news-detail-inner margin-bottom-footer content-box">
+                    <div class="news-detail-content row">
+                        <div class="col-sm-9">
+                            <div class="news-detail-content__inner">
+                                <div class="news-detail-content__title">
+                                    <h1 class="news-detail-content__title-text">
+                                        CÔNG TY BẮC ĐẢO CẤT NÓC LOẠT DỰ ÁN CỦA MASTERISE HOMES
+                                    </h1>
+                                    <p class="news-detail-content__datetime">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        10:26 07/10/2021
+                                    </p>
+                                    <div class="news-detail-content__sub-desc">
+                                        Trong tháng 3/2023, nhà thầu BẮC ĐẢO đã tổ chức cất nóc loạt dự án đến từ nhà phát triển bất động sản hàng hiệu Masterise Homes.
+                                    </div>
+                                    <div class="news-detail-content__inner-details">
+                                        <p>Lễ cất nóc dự án LUMIÈRE BOULEVARD được tổ chức vào ngày 7/3/2023 vừa qua là một sự kiện đặc biệt, đánh dấu sự hợp tác ăn ý giữa nhà thầu DELTA-V và nhà phát triển bất động sản Masterise Homes.</p>
+                                        <br>
+                                        <img style="width: 100%; height: auto;" src="./images/news/img-1610161057701-1610161669960.jpg" alt="">
+                                        <br><br>
+                                        <p>Trong suốt quá trình thi công, hai bên đã cùng hợp tác, chia sẻ và học hỏi, với hy vọng mang tới một khu đô xanh có không gian đáng sống và đầy đủ tiện ích cho cư dân tại quận 9, thành phố Hồ Chí Minh. Việc tín nhiệm DELTA-V là nhà thầu của dự án không chỉ chứng minh được thực lực của tổng thầu D&B DELTA-V, mà còn cho thấy tầm nhìn chiến lược và sự chỉn chu trong công việc của nhà phát triển bất động sản Masterise Homes.</p>
+                                        <br>
+                                        <img style="width: 100%; height: auto;" src="./images/news/1L3A6290-32.jpg" alt="">
+                                        <img style="width: 100%; height: auto;" src="./images/news/AP0I6214.jpg" alt="">
+                                        <img style="width: 100%; height: auto;" src="./images/news/1L3A6995.jpg" alt="">
+                                        <br><br>
+                                        <p style="text-align: center;"><i>Ông Nguyễn Xuân Thu – Phó Tổng giám đốc DELTA Group, đại diện nhà thầu DELTA-V phát biểu tại Lễ cất nóc dự án LUMIÈRE BOULEVARD. Bên cạnh lời cam kết sẽ tiếp tục đồng hành cùng đối tác, Ông cũng bày tỏ sự cảm ơn chân thành tới nhà phát triển bất động sản Masterise Homes vì đã tin tưởng và lựa chọn DELTA-V là nhà thầu của dự án.</i></p>
+                                        <br>
+                                        <p>Cũng trong tháng 3, Tổng thầu DELTA Group cùng đối tác chiến lược – nhà phát triển bất động sản hàng hiệu Masterise Homes đã tiến hành cất nóc Khu căn hộ hàng hiệu THE RITZ – CARLTON RESIDENCES tại Hàng Bài, Hà Nội.</p>
+                                        <br>
+                                        <p>Đây là Khu căn hộ siêu sang tại phố Hàng Bài – tuyến phố trung tâm của Thủ đô với duy nhất 104 căn hộ đẳng cấp 6 sao đối diện Tràng Tiền Plaza, chỉ cách hồ Gươm 100m. Vị trí đắc địa mang trong mình nhiều giá trị về văn hóa, lịch sử, du lịch và không gian sống sang trọng, quý phái sẽ đưa THE RITZ – CARLTON RESIDENCES trở thành ước mơ và đích đến của tầng lớp tinh hoa. Không những vậy, khu căn hộ hàng hiệu sẽ được quản lý bởi The Ritz Carlton – thương hiệu quản lý khách sạn danh giá bậc nhất thế giới thuộc tập đoàn Marriott Intercontinental. Điều này sẽ mang tới những trải nghiệm đẳng cấp có một không hai cho cư dân khi lựa chọn đến với THE RITZ – CARLTON RESIDENCES.</p>
+                                        <br>
+                                        <p>Masteri Homes là đơn vị phát triển dự án có uy tín và đã khẳng định được thương hiệu trên thị trường bất động sản khu vực TP Hồ Chí Minh cũng như tại các thành phố lớn trong cả nước, với các dự án như Masteri An Phú, Masteri Thảo Điền, Millenium, M-One Gia Định, v.v. Đứng từ vị trí đối tác, với DELTA Group, Masterise Homes không chỉ tạo nên uy tín bằng năng lực quốc tế mà còn gây ấn tượng bởi sự chỉn chu và những tiêu chuẩn khắt khe trong quy trình làm việc. Chúng ta có thể tin tưởng rằng, tầng lớp thị dân sẽ có thêm nhiều sự lựa chọn chất lượng với những công trình được tạo nên từ sự chuyên nghiệp của Masterise Homes và chất lượng xây dựng hàng đầu của DELTA.</p>
+                                    </div>
+                                    <div class="news-detail-content__social">
+                                        <div class="news-detail-content__like">
+                                            <i class="fa-solid fa-thumbs-up" style="color: #fff;"></i><span style="display: inline-block; margin-right: 5px;">like</span><span>0</span>
+                                        </div>
+                                        <div class="news-detail-content__share">
+                                            <a href=""><i class="fa-solid fa-share" style="color: #fff;"></i><span>share</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="news-detail-content__other">
+                                <div class="news-detail-content__other-title">
+                                    TIN TỨC MỚI NHẤT
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="news-detail-content__other news-detail-content__other-hight-light">
+                                <div class="news-detail-content__other-title">
+                                    TIN NỔI BẬT
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                                <div class="news-detail-content__other-content">
+                                    <a href="" class="news-detail-content__other-content-link" title="Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?">
+                                        <img src="./images/news/other1.jpg" alt="">
+                                        <p>Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018? Bất động sản Đà Nẵng: Dòng tiền đổ vào đâu trong năm 2018?</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer row">
+            <div class="wrapper footer-inner">
+                <div class="footer-inner-content row">
+                    <div class="col-sm-3">
+                        <div class="footer-content-about">
+                            <img src="./images/common/logo-1.png" alt="" class="footer-content-about__logo">
+                            <p>Công Ty TNHH MTV Bắc Đảo được thành lập năm 2020. Là đơn vị hàng đầu trong ngành Nhiệt - Điện lạnh Việt Nam</p>
+                            <div class="footer-content-about__connect">
+                                <a href="">
+                                    <img src="./images/common/facebook.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="./images/common/envelope.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-links">
+                            <p class="footer-title footer-content-links__title">
+                                LIÊN KẾT
+                            </p>
+                            <ul class="footer-content-links__list">
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Lĩnh vực công ty
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Các dự án
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Thông tin tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Đội ngũ lãnh đạo
+                                    </a>
+                                </li>
+                                <li class="footer-content-links__item">
+                                    <a href="" class="footer-content-links__link">
+                                        Liên hệ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-office">
+                            <p class="footer-title footer-content-office__title">
+                                TRỤ SỞ TP. HỒ CHÍ MINH
+                            </p>
+                            <p class="footer-content-office-address">
+                                Địa chỉ: 839/28/12 Lê Văn Lương, Xã Phước Kiển, Huyện Nhà Bè, TP Hồ Chí Minh
+                            </p>
+                            <p class="footer-content-office-address">
+                                Điện thoại: +84(98) 107 4353
+                            </p>
+                            <p class="footer-content-office-address">
+                                FAX: +84(24) 3976 0988
+                            </p>
+                            <p class="footer-content-office-address">
+                                Email: info@bacdao.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer-content-noti">
+                            <p class="footer-title footer-content-noti__title">
+                               THÔNG TIN
+                            </p>
+                            <p class="footer-content-noti__text">
+                                Hãy đăng ký nhận tất cả thông tin về công ty chúng tôi.
+                            </p>
+                            <form class="footer-content-noti__form" action="">
+                                <input type="email" id="email" name="email" placeholder="Nhập email của bạn">
+                                <button type="submit">Gửi đi</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-inner-policy">
+                <div class="wrapper">
+                    <p>Copyright © 2020 BACDAO | All rights reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-to-top">
+            <div class="scroll-to-top__arrow"></div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="plugins/bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./plugins/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <!-- Local JS -->
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>
